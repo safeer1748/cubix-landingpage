@@ -1,0 +1,17 @@
+Start chat with 🤖
+
+## Stack
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
+- Shadcn UI
+- lucide-react
+
+## Project
+- Create a landing page for for the blockchain company which name is "Cubix"
+- The landing page should be a one page website with a navigation bar
+- The navigation bar should have links to the different sections of the page
+- The page should have a hero section, a features section, a about section, a roadmap section, a team section, a contact section
+- The page should be responsive
+- The page should be optimized for mobile, tablet and desktop viewports

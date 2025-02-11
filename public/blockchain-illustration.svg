@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="white"/>
+  <g opacity="0.1">
+    <circle cx="400" cy="400" r="300" stroke="currentColor" stroke-width="2"/>
+    <circle cx="400" cy="400" r="250" stroke="currentColor" stroke-width="2"/>
+    <circle cx="400" cy="400" r="200" stroke="currentColor" stroke-width="2"/>
+  </g>
+  <g>
+    <circle cx="400" cy="250" r="40" fill="#000000"/>
+    <circle cx="550" cy="400" r="40" fill="#000000"/>
+    <circle cx="400" cy="550" r="40" fill="#000000"/>
+    <circle cx="250" cy="400" r="40" fill="#000000"/>
+  </g>
+  <g>
+    <line x1="400" y1="290" x2="400" y2="510" stroke="#000000" stroke-width="4"/>
+    <line x1="290" y1="400" x2="510" y2="400" stroke="#000000" stroke-width="4"/>
+    <line x1="314" y1="314" x2="486" y2="486" stroke="#000000" stroke-width="4"/>
+    <line x1="486" y1="314" x2="314" y2="486" stroke="#000000" stroke-width="4"/>
+  </g>
+</svg> 
