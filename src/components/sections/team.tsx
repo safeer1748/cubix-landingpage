@@ -51,14 +51,14 @@ const team = [
 export function Team() {
   return (
     <section id="team" className="py-24">
-      <div className="container px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold mb-4">Meet Our Team</h2>
           <p className="text-muted-foreground text-lg">
           The brilliant minds behind Cubix&apos;s innovative blockchain solutions.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
           {team.map((member) => (
             <div
               key={member.name}

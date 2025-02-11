@@ -6,8 +6,8 @@ import { Mail, MessageSquare, Phone } from "lucide-react";
 export function Contact() {
   return (
     <section id="contact" className="py-24 bg-muted/50">
-      <div className="container px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <div>
             <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
             <p className="text-lg text-muted-foreground mb-8">

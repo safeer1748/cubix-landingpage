@@ -111,7 +111,7 @@ function BlockchainAnimation() {
 
 export function Hero() {
   return (
-    <section id="home" className="relative pt-32 pb-24 overflow-hidden">
+    <section id="home" className="relative min-h-screen overflow-hidden flex items-center justify-center">
       {/* Blockchain animation background */}
       <BlockchainAnimation />
       
@@ -128,8 +128,8 @@ export function Hero() {
       />
 
       {/* Content */}
-      <div className="container relative">
-        <div className="text-center max-w-3xl mx-auto space-y-8">
+      <div className="container relative px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+        <div className="text-center max-w-3xl mx-auto space-y-6 md:space-y-8">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-white/60 animate-gradient bg-[size:200%_200%]">
             The Future of Blockchain Technology
           </h1>

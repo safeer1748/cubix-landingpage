@@ -41,16 +41,16 @@ const milestones = [
 export function Roadmap() {
   return (
     <section id="roadmap" className="py-24 bg-muted/50">
-      <div className="container px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold mb-4">Our Roadmap</h2>
-          <p className="text-muted-foreground text-lg">
+          <h2 className="text-3xl font-bold mb-4 text-center">Our Roadmap</h2>
+          <p className="text-muted-foreground text-lg text-center">
             Follow our journey as we build the future of blockchain technology.
           </p>
         </div>
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto space-y-8">
           {milestones.map((milestone, index) => (
-            <div key={milestone.phase} className="relative pl-8 pb-12 last:pb-0">
+            <div key={milestone.phase} className="relative pl-8 pb-8 last:pb-0">
               {index !== milestones.length - 1 && (
                 <div className="absolute left-[11px] top-3 h-full w-px bg-border" />
               )}
@@ -62,10 +62,10 @@ export function Roadmap() {
                     <Circle className="h-6 w-6 text-muted-foreground" />
                   )}
                 </div>
-                <div>
-                  <div className="flex items-center gap-4 mb-2">
+                <div className="flex-1">
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 mb-2">
                     <h3 className="text-xl font-semibold">{milestone.phase}</h3>
-                    <div className="text-sm text-muted-foreground px-2 py-1 bg-muted rounded">
+                    <div className="text-sm text-muted-foreground px-2 py-1 bg-muted rounded w-fit">
                       {milestone.date}
                     </div>
                   </div>
